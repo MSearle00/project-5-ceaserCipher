@@ -12,23 +12,27 @@
       <form name="cipherForm" id="cipherForm">
         <div class="userMessage">
           <label for="userMessage">Enter Message:</label><br />
-          <textarea id="userMessage" rows="4" cols="40" oninput="cipherCode()">
+          <textarea id="userMessage" rows="10" cols="40" oninput="cipherCode()">
           </textarea>
           <br/> <br/>
         </div>
         <div class="cipherOptions">
-          <label for="cipherKey">Key:</label>
-          <input type="number" min="0" max="26" id="cipherKey" value=1 onchange="cipherCode()" />
+          <div class="cipherKey">
+            <label for="cipherKey">Key:</label>
+            <input type="number" min="0" max="26" id="cipherKey" value=1 onchange="cipherCode()" />
+          </div>
           <br/> <br/>
-          <label for="encode">Encode:</label>
-          <input type="radio" name="code" id="encode" checked onchange="cipherCode()" />
-          <label for="decode">Decode:</label>
-          <input type="radio" name="code" id="decode" onchange="cipherCode()" /> 
+          <div class="cipherCode">
+            <label for="encode">Encode:</label>
+            <input type="radio" name="code" id="encode" checked onchange="cipherCode()" />
+            <label for="decode">Decode:</label>
+            <input type="radio" name="code" id="decode" onchange="cipherCode()" /> 
+          </div>
           <br/> <br/>
         </div>
         <div class="outputMessage">
           <label for="output">Output:</label><br />
-          <textarea id="output" rows="4" cols="40">
+          <textarea id="output" rows="10" cols="40">
           </textarea>
         </div>
       </form>

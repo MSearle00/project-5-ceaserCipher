@@ -5,24 +5,31 @@
     align-items: center;
 }
 
-.form{
-    display:flex;
-    flex-direction: column;
+#cipherForm{
+    display: flex;
     justify-content: space-around;
-}
-
-.cipherOptions{
 }
 
 .userMessage{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
 .outputMessage{
-    width:100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.cipherKey{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.cipherCode{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
