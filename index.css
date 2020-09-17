@@ -1,0 +1,28 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cipherOptions{
+}
+
+.userMessage{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.outputMessage{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
